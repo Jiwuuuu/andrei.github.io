@@ -17,9 +17,42 @@ body {
 }
 
 .logo {
+    
     position: absolute;
     top: 13px;
-    left: 457px;
+    left: 20px;
+}
+
+.middle ul{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link {
+    top: 23px;
+    left: 411px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 0.25rem;
+    color: #97FDBA;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #39E01E ;
+    transition: all 0.3s ease;
+}
+
+.link:hover::after{
+    width: 100%;
 }
 
 span {
@@ -61,9 +94,6 @@ span {
     width: 1048px;
     height: 74px;
     top: 1px;
-    left: 437px;
-
+    left: 436px;
+    
 }
-
-
-
