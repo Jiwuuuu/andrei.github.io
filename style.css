@@ -8,6 +8,10 @@ body {
     width: 100%;
 }
 
+.a:link{
+    color: red;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,14 +28,20 @@ body {
 }
 
 .middle ul{
-
     list-style: none;
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-.link {
+.link a {
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #97FDBA;
+    text-decoration: none;
+}
+
+.link{
     top: 23px;
     left: 411px;
     cursor: pointer;
@@ -57,7 +67,6 @@ body {
 
 span {
     font-size: 32px;
-    cursor: pointer;
     background: linear-gradient(43deg, #d9ed92, #b5e48c, #99d98c, #76c893, #52b69a, #34a0a4, #168aad, #1a759f, #b5e48c,#d9ed92);
     background-size: 400%;
     -webkit-text-fill-color: transparent;
@@ -97,3 +106,12 @@ span {
     left: 436px;
     
 }
+
+
+.right{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 860px;
+}
+
