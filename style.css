@@ -5,7 +5,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    max-width: 1920px;
+    max-height: 2160px;
 }
 
 
@@ -19,11 +20,11 @@ body {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 24px;
     position: absolute;
-    top: 13px;
-    bottom: 13px;
-    left: 186px;
+    top: 16px;
+    bottom: 18px;
+    left: 127px;
 }
 
 .middle ul{
@@ -43,7 +44,8 @@ body {
 .link{
     bottom: 22px;
     top: 23px;
-    left: 560px;
+    left: 585px;
+    right: 844px;
     cursor: pointer;
     position: relative;
     padding-bottom: 0.25rem;
@@ -65,7 +67,11 @@ body {
     width: 100%;
 }
 
-span {
+#logo{
+    color:  #97FDBA;
+}
+
+#name { 
     background: linear-gradient(43deg, #d9ed92, #b5e48c, #99d98c, #76c893, #52b69a, #34a0a4, #168aad, #1a759f, #b5e48c,#d9ed92);
     background-size: 400%;
     -webkit-text-fill-color: transparent;
@@ -76,6 +82,7 @@ span {
     color: transparent;
     letter-spacing: 0;
     line-height: normal;
+    
 }
 
 @keyframes animate{
@@ -111,7 +118,7 @@ span {
     display: flex;
     position: absolute;
     align-items: center;
-    left: 1189px;
+    left: 1100px;
     bottom: 22px;
     top: 23px;
 }
@@ -140,7 +147,7 @@ span {
     transition: 0.3s ease-out;
     transform: scaleY(1);
 }
-  
+
 .btn::after {
     content: '';
     position: absolute;
@@ -178,6 +185,54 @@ button {
     background-color: transparent;
 }
 
-  
-  
-  
+
+.info {
+
+    width: 1920px;
+    height: 800px;
+}
+
+.info .intro {
+    margin-top: 158px;
+    margin-left: 271px;
+    width: 390px;
+    height: 149px;
+    flex-shrink: 0;
+}
+
+
+.info h1{
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 4rem; 
+    color: #97FDBA;
+    line-height: 0.9;
+}
+
+.info .bsit {
+    color: rgba(151, 253, 186, 0.8);
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info p {
+    color: #96FCB9;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.info .description {
+    
+    margin-left: 271px;
+    width: 450px;
+    height: 56px;
+}
+
