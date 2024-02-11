@@ -9,7 +9,11 @@ body {
     max-height: 2160px;
 }
 
-
+.content2 {
+    width: 1462px;
+    height: 2160px;
+    margin-left: 229px;
+}
 
 * {
     margin: 0;
@@ -190,12 +194,12 @@ button {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     width: 1920px;
-    height: 800px;
+    height: 466px;
 }
 
 .info .intro {
     margin-top: 158px;
-    margin-left: 271px;
+    margin-left: 42px;
     width: 390px;
     height: 149px;
     flex-shrink: 0;
@@ -231,10 +235,9 @@ button {
 }
 
 .info .description {
-    
-    margin-left: 271px;
+    margin-left: 42px;
     width: 450px;
-    height: 56px;
+    height: auto;
 }
 
 .info .picture {
@@ -261,4 +264,9 @@ button {
     color: #1d4ed8;
     opacity: 0.2;
     z-index: -100;
+}
+
+.aboutme {
+    margin-top: 10;
+    margin-left: 42px;
 }
